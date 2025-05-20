@@ -1,4 +1,4 @@
-name: Trigger CI in Automation Repo
+name: Trigger CI in Automation Repository
 on:
   push:
     branches:
