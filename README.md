@@ -1,6 +1,6 @@
 # QA-Automation-Demo
 
-Developer repository demo
+Developer repository demo for CI/CD training
 
 A simple HTML page for practicing QA automation testing
 
