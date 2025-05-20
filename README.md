@@ -1,6 +1,6 @@
 # QA-Automation-Demo
 
-Developer repo demo
+Developer repository demo
 
 A simple HTML page for practicing QA automation testing
 
