@@ -1,0 +1,16 @@
+name: Trigger CI in Automation Repo
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disparar evento en repo de automatización
+        run: |
+          curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/repos/daimilamoru/MyProjectWithCICD /actions/workflows/playwright.yml/dispatches \
+               -d '{"ref":"main"}'
