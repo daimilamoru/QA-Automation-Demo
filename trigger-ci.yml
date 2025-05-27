@@ -8,7 +8,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Disparar evento en repo de automatización
+      - name: Disparar evento en el repositorio de automatización
         run: |
           curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                -H "Accept: application/vnd.github.v3+json" \
