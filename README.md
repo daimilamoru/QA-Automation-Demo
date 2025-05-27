@@ -1,12 +1,14 @@
 # QA-Automation-Demo
 
-Developer repository demo for CI/CD training
+Project Summary
+This is a QA-Automation-Demo project designed for CI/CD training purposes. It consists of:
 
-A simple HTML page for practicing QA automation testing
+Simple HTML pages ( index.html and  index2.html) that serve as targets for QA automation testing
 
-GitHub Actions workflow (`trigger-ci.yml`) that triggers CI processes in a separate automation repository when changes are pushed to main
+A GitHub Actions workflow ( trigger-ci.yml) that triggers CI processes in a separate automation repository when changes are pushed to the main branch
 
-The project likely serves as a test target for automation scripts located in another repository
+The project integrates with external QA automation tools in another repository (daimilamoru/MyProjectWithCICD)
 
-The project seems designed to simulate a development repository that integrates with external QA automation tools, possibly for training or demonstration purposes.
+The HTML pages contain basic content with links to Swag Labs, likely used for demonstration and practice of automation testing techniques.
+
 
